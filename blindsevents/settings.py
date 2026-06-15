@@ -176,7 +176,8 @@ SIMPLE_JWT = {
 # En prod, mets l'URL de ton frontend (ex: https://monfrontend.onrender.com)
 CORS_ALLOWED_ORIGINS = os.getenv(
     'CORS_ALLOWED_ORIGINS',
-    'http://localhost:4200'
+    'http://localhost:4200',
+    'https://blinds-frontend.vercel.app'
 ).split(',')
 CORS_ALLOW_CREDENTIALS = True
 
