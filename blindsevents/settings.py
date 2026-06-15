@@ -177,7 +177,7 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = os.getenv(
     'CORS_ALLOWED_ORIGINS',
     'http://localhost:4200',
-    'https://blinds-frontend.vercel.app'
+    'https://blinds-frontend.vercel.app',
 ).split(',')
 CORS_ALLOW_CREDENTIALS = True
 
